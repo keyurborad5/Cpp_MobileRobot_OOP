@@ -1,0 +1,4 @@
+<map id="RWA2::Battery::start_charging" name="RWA2::Battery::start_charging">
+<area shape="rect" id="node1" title="Start charging the battery." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$class_r_w_a2_1_1_battery.html#a646e501a155c5081dd1b6a6d12669018" title="to stop charging the battery" alt="" coords="208,5,360,47"/>
+</map>

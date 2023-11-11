@@ -1,0 +1,6 @@
+<map id="RWA2::Battery::discharge" name="RWA2::Battery::discharge">
+<area shape="rect" id="node1" title="Discharge the battery." alt="" coords="243,71,429,98"/>
+<area shape="rect" id="node2" href="$class_r_w_a2_1_1_aquatic_robot.html#a135e73a75c478e91c4996e4446da7634" title="The robot dives to reach depth.This method can be called only if the robot is not already diving." alt="" coords="22,5,178,47"/>
+<area shape="rect" id="node3" href="$class_r_w_a2_1_1_legged_robot.html#ad678567312495049760cb6c20d80f9a1" title="The robot gives a kick with a strength of leg_strength_." alt="" coords="5,71,195,98"/>
+<area shape="rect" id="node4" href="$class_r_w_a2_1_1_aerial_robot.html#ab765457b9323033f7ffd3ad6d473bbaa" title="The robot takes oﬀ to reach the altitude." alt="" coords="23,123,177,164"/>
+</map>

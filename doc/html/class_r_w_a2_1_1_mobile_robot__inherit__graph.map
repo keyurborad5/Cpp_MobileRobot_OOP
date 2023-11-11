@@ -1,0 +1,7 @@
+<map id="RWA2::MobileRobot" name="RWA2::MobileRobot">
+<area shape="rect" id="node1" title="Class for the mobile robot." alt="" coords="267,5,417,32"/>
+<area shape="rect" id="node2" href="$class_r_w_a2_1_1_aerial_robot.html" title="Defineing class as Aerial Robot and public inheritence of Mobile RObot class." alt="" coords="5,80,151,107"/>
+<area shape="rect" id="node3" href="$class_r_w_a2_1_1_aquatic_robot.html" title="Defineing class as Aquatic Robot and public inheritence of Mobile RObot class." alt="" coords="175,80,331,107"/>
+<area shape="rect" id="node4" href="$class_r_w_a2_1_1_legged_robot.html" title="creating class of LeggedRobot with the public inheritance of MobileRobot" alt="" coords="355,80,510,107"/>
+<area shape="rect" id="node5" href="$class_r_w_a2_1_1_wheeled_robot.html" title="class WheeledRobot with public inheritance of MobileRobot" alt="" coords="535,80,699,107"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="RWA2::LeggedRobot::print_status" name="RWA2::LeggedRobot::print_status">
+<area shape="rect" id="node1" title="prints all attributes of parent class MobileRobot as well as of LeggedRobot" alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node2" href="$class_r_w_a2_1_1_mobile_robot.html#a355a94c1602869459370267bc0c0915c" title="Prints the status of the mobile robot." alt="" coords="216,5,375,47"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="RWA2::Sensor::read_data" name="RWA2::Sensor::read_data">
+<area shape="rect" id="node1" title="Start reading the sensor data." alt="" coords="5,13,192,39"/>
+<area shape="rect" id="node2" href="$class_r_w_a2_1_1_sensor.html#a8abf03d86b8a0b69ef00ae062ab2064c" title="Stop reading the sensor data." alt="" coords="240,5,389,47"/>
+</map>

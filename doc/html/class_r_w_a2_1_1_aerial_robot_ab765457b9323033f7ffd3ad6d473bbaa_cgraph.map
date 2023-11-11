@@ -1,0 +1,4 @@
+<map id="RWA2::AerialRobot::take_off" name="RWA2::AerialRobot::take_off">
+<area shape="rect" id="node1" title="The robot takes oﬀ to reach the altitude." alt="" coords="5,5,159,47"/>
+<area shape="rect" id="node2" href="$class_r_w_a2_1_1_battery.html#ad2ca74c95d5a8766eb250b9057dd2667" title="Discharge the battery." alt="" coords="207,13,393,39"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="RWA2::AquaticRobot::dive" name="RWA2::AquaticRobot::dive">
+<area shape="rect" id="node1" title="The robot dives to reach depth.This method can be called only if the robot is not already diving." alt="" coords="5,5,161,47"/>
+<area shape="rect" id="node2" href="$class_r_w_a2_1_1_battery.html#ad2ca74c95d5a8766eb250b9057dd2667" title="Discharge the battery." alt="" coords="209,13,396,39"/>
+</map>
