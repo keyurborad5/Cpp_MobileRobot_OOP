@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['get_5fbattery_5flevel_63',['get_battery_level',['../class_r_w_a2_1_1_mobile_robot.html#a5c7d6aa9eb003992d1bb8abc11e6f71d',1,'RWA2::MobileRobot']]],
-  ['get_5fcurrent_5fcharge_64',['get_current_charge',['../class_r_w_a2_1_1_battery.html#ad95194b5e455d7cf18f0bedac8e1983b',1,'RWA2::Battery']]],
-  ['get_5forientation_65',['get_orientation',['../class_r_w_a2_1_1_mobile_robot.html#ab2d3154f968dce16d852d01e35878a88',1,'RWA2::MobileRobot']]],
-  ['get_5fposition_66',['get_position',['../class_r_w_a2_1_1_mobile_robot.html#ad8c749d6844798f43c61502c22e8da95',1,'RWA2::MobileRobot']]],
-  ['get_5fspeed_67',['get_speed',['../class_r_w_a2_1_1_mobile_robot.html#ab43507b4b2f3d62eb4d5e6f43bcc2463',1,'RWA2::MobileRobot']]]
+  ['mobilerobot_38',['MobileRobot',['../class_r_w_a2_1_1_mobile_robot.html#a3b088aa5695d91c17a40d91171fd58f4',1,'RWA2::MobileRobot::MobileRobot(std::string robot_model, std::string battery_model)'],['../class_r_w_a2_1_1_mobile_robot.html#a5c4428da0254817f8d97be09f76d82fc',1,'RWA2::MobileRobot::MobileRobot(double orientation, std::string robot_model, std::string battery_model)'],['../class_r_w_a2_1_1_mobile_robot.html#afc062c284ea0df8f9197b664c64cbf50',1,'RWA2::MobileRobot::MobileRobot(double x, double y, std::string robot_model, std::string battery_model)'],['../class_r_w_a2_1_1_mobile_robot.html#af507dfbe80862abd7fb69219c1d5c6f6',1,'RWA2::MobileRobot::MobileRobot(double x, double y, double orientation, std::string robot_model, std::string battery_model)']]],
+  ['move_39',['move',['../class_r_w_a2_1_1_aerial_robot.html#adf3041e82b76fc3b98dee98cccbfdaa2',1,'RWA2::AerialRobot::move()'],['../class_r_w_a2_1_1_aquatic_robot.html#a5d5142423e0d96b08cce686df527261c',1,'RWA2::AquaticRobot::move()'],['../class_r_w_a2_1_1_legged_robot.html#ad130ff2724cf259475a6043b9101f7de',1,'RWA2::LeggedRobot::move()'],['../class_r_w_a2_1_1_mobile_robot.html#a26473718b39fe26ad31f7588cdfdcd27',1,'RWA2::MobileRobot::move()'],['../class_r_w_a2_1_1_wheeled_robot.html#ab72349f497d811a608bcc6a075852979',1,'RWA2::WheeledRobot::move()']]]
 ];

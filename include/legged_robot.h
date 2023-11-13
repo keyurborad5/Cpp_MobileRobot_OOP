@@ -9,7 +9,7 @@
  */
 namespace RWA2{
     /**
-     * @brief creating class of LeggedRobot with the public inheritance of MobileRobot
+     * @brief class LeggedRobot with the public inheritance of MobileRobot
      * 
      */
     class LeggedRobot final : public MobileRobot{

@@ -9,7 +9,7 @@
  */
 namespace RWA2{
     /**
-     * @brief Defineing class as Aquatic Robot and public inheritence of Mobile RObot class
+     * @brief class AquaticRobot and public inheritence of MobileRobot class
      * 
      */
     class AquaticRobot final : public MobileRobot{

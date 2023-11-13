@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['charge_5fbattery_59',['charge_battery',['../class_r_w_a2_1_1_mobile_robot.html#aae4f527d8e6b9c8680aec8e3d7eb0555',1,'RWA2::MobileRobot']]]
+  ['discharge_32',['discharge',['../class_r_w_a2_1_1_battery.html#ad2ca74c95d5a8766eb250b9057dd2667',1,'RWA2::Battery']]]
 ];

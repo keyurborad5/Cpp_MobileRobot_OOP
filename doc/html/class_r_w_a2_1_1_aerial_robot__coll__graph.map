@@ -1,5 +1,5 @@
 <map id="RWA2::AerialRobot" name="RWA2::AerialRobot">
-<area shape="rect" id="node1" title="Defineing class as Aerial Robot and public inheritence of Mobile RObot class." alt="" coords="8,171,153,197"/>
+<area shape="rect" id="node1" title="class AerialRobot and public inheritence of MobileRobot class" alt="" coords="8,171,153,197"/>
 <area shape="rect" id="node2" href="$class_r_w_a2_1_1_mobile_robot.html" title="Class for the mobile robot." alt="" coords="5,95,156,121"/>
 <area shape="rect" id="node3" href="$class_r_w_a2_1_1_battery.html" title="Class for the battery." alt="" coords="22,5,139,32"/>
 </map>

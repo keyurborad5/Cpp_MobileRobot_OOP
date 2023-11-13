@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['brake_58',['brake',['../class_r_w_a2_1_1_wheeled_robot.html#abef105c56778218501a3ec37fa20f8d8',1,'RWA2::WheeledRobot']]]
+  ['charge_5fbattery_31',['charge_battery',['../class_r_w_a2_1_1_mobile_robot.html#aae4f527d8e6b9c8680aec8e3d7eb0555',1,'RWA2::MobileRobot']]]
 ];

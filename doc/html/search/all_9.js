@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['land_27',['land',['../class_r_w_a2_1_1_aerial_robot.html#a5ca638f7e4255127a870a711c971af15',1,'RWA2::AerialRobot']]],
-  ['leg_5fstrength_5f_28',['leg_strength_',['../class_r_w_a2_1_1_legged_robot.html#ad702d1fb30f7891dff49a8e037b60ba1',1,'RWA2::LeggedRobot']]],
-  ['leggedrobot_29',['LeggedRobot',['../class_r_w_a2_1_1_legged_robot.html',1,'RWA2']]]
+  ['sensor_18',['Sensor',['../class_r_w_a2_1_1_sensor.html',1,'RWA2']]],
+  ['start_5fcharging_19',['start_charging',['../class_r_w_a2_1_1_battery.html#a65c31a8b2f786fa04c52383db001492a',1,'RWA2::Battery']]],
+  ['stop_5freading_20',['stop_reading',['../class_r_w_a2_1_1_sensor.html#a8abf03d86b8a0b69ef00ae062ab2064c',1,'RWA2::Sensor']]]
 ];
