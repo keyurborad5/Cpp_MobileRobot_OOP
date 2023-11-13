@@ -14,7 +14,7 @@
 void move_robot(const std::vector<std::unique_ptr<RWA2::MobileRobot>>& robots){
     //this for loop iterates through all the elements of the vector(robots)
     for(const auto& robot: robots)
-      robot->move(60,180);
+      robot->move(20,180);
 
 }
 
@@ -27,26 +27,32 @@ int main() {
   
   //Creating a [unique pointer and an object]->(aerial_ptr) of type (RWA2::MobileRobot) 
   std::unique_ptr<RWA2::MobileRobot> aerial_ptr =std::make_unique<RWA2::AerialRobot>(0,0,90,"Erle-Plane","LiFePO4",0,0.0,0);
-  //Adding 2 sensors to the object(aerial_ptr) by dereferncing it and calling method (add_sensor)
+  //Adding 2 sensors to the object cum Unique pointer (aerial_ptr) by dereferncing it and calling method (add_sensor)
   aerial_ptr->add_sensor(std::make_unique<RWA2::Sensor>("3D Lidar"));
   aerial_ptr->add_sensor(std::make_unique<RWA2::Sensor>("IMU "));
 
+  //Creating a [unique pointer and an object]->(aquatic_ptr) of type (RWA2::MobileRobot) 
   std::unique_ptr<RWA2::MobileRobot> aquatic_ptr =std::make_unique<RWA2::AquaticRobot>(10,10,90,"HoloOcean","LiFePO4",1);
+  //Adding 2 sensors to the object cum Unique pointer (aquatic_ptr) by dereferncing it and calling method (add_sensor)
   aquatic_ptr->add_sensor(std::make_unique<RWA2::Sensor>("2D camera"));
   aquatic_ptr->add_sensor(std::make_unique<RWA2::Sensor>("IMU "));
 
-  std::unique_ptr<RWA2::MobileRobot> wheeled_ptr =std::make_unique<RWA2::WheeledRobot>(20,20,90,"AMMRR","Li-ion",180,10,6);
+  //Creating a [unique pointer and an object]->(Wheeled_ptr) of type (RWA2::MobileRobot) 
+  std::unique_ptr<RWA2::MobileRobot> wheeled_ptr =std::make_unique<RWA2::WheeledRobot>(10,20,90,"AMMRR","Li-ion",180,10,6);
+  //Adding 2 sensors to the object cum Unique pointer (wheeled_ptr) by dereferncing it and calling method (add_sensor)
   wheeled_ptr->add_sensor(std::make_unique<RWA2::Sensor>("3D Lidar"));
-  wheeled_ptr->add_sensor(std::make_unique<RWA2::Sensor>("IMU"));
-  
+  wheeled_ptr->add_sensor(std::make_unique<RWA2::Sensor>("IMU"));  
+
+  //Creating a [unique pointer and an object]->(Legged_ptr) of type (RWA2::MobileRobot) 
   std::unique_ptr<RWA2::MobileRobot> legged_ptr =std::make_unique<RWA2::LeggedRobot>(30,30,90,"HUMOOO","Li-ion",11,1);
+  //Adding 2 sensors to the object cum Unique pointer (legged_ptr) by dereferncing it and calling method (add_sensor)
   legged_ptr->add_sensor(std::make_unique<RWA2::Sensor>("3D Lidar"));
   legged_ptr->add_sensor(std::make_unique<RWA2::Sensor>("IMU"));
 
   //adding all above unique pointer in the vector of unique pointer (mobile_robots)
-  mobile_robots.push_back(std::move(aerial_ptr));
-  mobile_robots.push_back(std::move(aquatic_ptr));
-  mobile_robots.push_back(std::move(legged_ptr));
+  // mobile_robots.push_back(std::move(aerial_ptr));
+  // mobile_robots.push_back(std::move(aquatic_ptr));
+  // mobile_robots.push_back(std::move(legged_ptr));
   mobile_robots.push_back(std::move(wheeled_ptr));
 
   //executing function (move_robot)

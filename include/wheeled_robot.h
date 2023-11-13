@@ -8,7 +8,7 @@
  * 
  */
 namespace RWA2{
-    //============================constructor===============================
+    
     /**
      * @brief class WheeledRobot with public inheritance of MobileRobot
      * 
@@ -16,6 +16,7 @@ namespace RWA2{
 
     class WheeledRobot final: public MobileRobot{
         public:
+            //============================constructor===============================
             WheeledRobot(double x, double y, double orientation,std::string wheeled_robot_model,std::string battery_model,
                          double wheel_diameter, double desired_speed,int number_of_wheels=2):
                         MobileRobot(x,y,orientation,wheeled_robot_model,battery_model),

@@ -9,7 +9,7 @@
  */
 namespace RWA2 {
     /**
-     * @brief Defineing class as Aerial Robot and public inheritence of Mobile RObot class
+     * @brief class AerialRobot and public inheritence of MobileRobot class
      * 
      */
     class AerialRobot final : public MobileRobot {
