@@ -70,18 +70,9 @@ namespace RWA2 {
              * - fourth argument: robot model
              * - fifth argument: battery model
              */
-            MobileRobot(double x, double y,std::string robot_model, std::string battery_model) : MobileRobot(x, y, 0, robot_model, battery_model) {}
-            /**
-             * @brief Construct a new Mobile Robot object
-             * @note This is a delegating constructor
-             * - first argument: x position
-             * - second argument: y position
-             * - third argument: orientation
-             * - fourth argument: robot model
-             * - fifth argument: battery model
-             */
-            MobileRobot(double x, double y, double orientation, std::string robot_model)
-                : MobileRobot(x, y, orientation, robot_model, "Li-ion") {}
+            MobileRobot(double x, double y,std::string robot_model, std::string battery_model) : MobileRobot(x, y, 0 ,robot_model, battery_model) {}
+           
+            
             /**
              * @brief Construct a new Mobile Robot object
              * @note This is a delegating constructor
@@ -94,7 +85,7 @@ namespace RWA2 {
             MobileRobot(double x, double y, double orientation,std::string robot_model, std::string battery_model)
                 : position_{x, y},
                     orientation_{orientation},model_{robot_model},
-                    battery_{battery_model, 50, false} {}
+                    battery_{battery_model,100, false} {}
 
             // ==================== accessors ====================
             /**

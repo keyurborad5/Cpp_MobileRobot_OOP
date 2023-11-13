@@ -22,13 +22,13 @@ namespace RWA2{
                             do{
                                 if(number_of_legs_%2 != 0 | number_of_legs_>7){
 
-                                    std::cout<< "Please enter the valid number of legs, which are 2 or 4 or 6. :";
+                                    std::cout<< "Please enter the valid number of legs of legged robot, which are 2 or 4 or 6. :";
                                     std::cin>> number_of_legs_;
                                 }
                             }while (number_of_legs_%2 != 0 | number_of_legs_>7);
                             do{
                                 if (leg_strength_<1|leg_strength_>10){
-                                    std::cout<< "Please enter the valid leg strength, which is [1-10]. :";
+                                    std::cout<< "Please enter the valid leg strength of legged robot, which is [1-10]. :";
                                     std::cin>> leg_strength_;
                                 }
                             } while(leg_strength_<1|leg_strength_>10);

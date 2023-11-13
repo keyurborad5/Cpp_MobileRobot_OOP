@@ -8,6 +8,7 @@
 
 
 //==============================================================================
+// for method implementation of read_data
 void RWA2::Sensor::read_data(unsigned int duration) {
 
     std::cout << "Sensor " << model_ << " gathering data for " << duration << "seconds"<< '\n';
@@ -20,11 +21,11 @@ void RWA2::Sensor::read_data(unsigned int duration) {
     for (int i=0 ;i<50; i++){ 
         data_[i]= dis(gen);
     }
-    //std::cout << "Sensor " << sensor_name_ << " read data: " << sensor_data_ << '\n';
     stop_reading();
 }
 
 //==============================================================================
+// for method implementation of stop_reading
 void RWA2::Sensor::stop_reading() {
     std::cout << "Stopping reading data" << '\n';
 }
